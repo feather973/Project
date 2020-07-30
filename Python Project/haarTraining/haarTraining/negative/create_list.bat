@@ -1,0 +1,1 @@
+dir /b *.bmp >infofile.txt

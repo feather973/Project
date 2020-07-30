@@ -1,0 +1,180 @@
+8월 17, 2019 7:14:58 오후 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Run Tesseract for Training
+8월 17, 2019 7:14:58 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/tesseract, numcar.맑은고딕b.exp0.tif, numcar.맑은고딕b.exp0, box.train]
+8월 17, 2019 7:14:59 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:14:59 오후 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Compute the Character Set
+8월 17, 2019 7:14:59 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/unicharset_extractor, numcar.맑은고딕b.exp0.box]
+8월 17, 2019 7:14:59 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:14:59 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=C:\Users\gram\Desktop\license_plate_project\ppt4\traindata]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Shape Clustering
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/shapeclustering, -F, carnum.font_properties, -U, unicharset, numcar.맑은고딕b.exp0.tr]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: MF Training
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/mftraining, -F, carnum.font_properties, -U, unicharset, -O, carnum.unicharset, numcar.맑은고딕b.exp0.tr]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: CN Training
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/cntraining, numcar.맑은고딕b.exp0.tr]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Rename files
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Dictionary Data
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/wordlist2dawg, carnum.frequent_words_list, carnum.freq-dawg, carnum.unicharset]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/wordlist2dawg, carnum.words_list, carnum.word-dawg, carnum.unicharset]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Combine Data Files
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/combine_tessdata, carnum.]
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Moving generated traineddata file to tessdata folder
+8월 17, 2019 7:15:00 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Training Completed
+8월 17, 2019 7:21:32 오후 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Run Tesseract for Training
+8월 17, 2019 7:21:32 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/tesseract, numcar.yugothicuisemiboldb.exp0.tif, numcar.yugothicuisemiboldb.exp0, box.train]
+8월 17, 2019 7:21:33 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:33 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/tesseract, numcar.맑은고딕b.exp0.tif, numcar.맑은고딕b.exp0, box.train]
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Compute the Character Set
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/unicharset_extractor, numcar.yugothicuisemiboldb.exp0.box, numcar.맑은고딕b.exp0.box]
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=C:\Users\gram\Desktop\license_plate_project\ppt4\traindata]
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Shape Clustering
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/shapeclustering, -F, carnum.font_properties, -U, unicharset, numcar.yugothicuisemiboldb.exp0.tr, numcar.맑은고딕b.exp0.tr]
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: MF Training
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/mftraining, -F, carnum.font_properties, -U, unicharset, -O, carnum.unicharset, numcar.yugothicuisemiboldb.exp0.tr, numcar.맑은고딕b.exp0.tr]
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:34 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: CN Training
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/cntraining, numcar.yugothicuisemiboldb.exp0.tr, numcar.맑은고딕b.exp0.tr]
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Rename files
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Dictionary Data
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/wordlist2dawg, carnum.frequent_words_list, carnum.freq-dawg, carnum.unicharset]
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/wordlist2dawg, carnum.words_list, carnum.word-dawg, carnum.unicharset]
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Combine Data Files
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/combine_tessdata, carnum.]
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Moving generated traineddata file to tessdata folder
+8월 17, 2019 7:21:35 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Training Completed
+8월 17, 2019 7:27:06 오후 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Run Tesseract for Training
+8월 17, 2019 7:27:06 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/tesseract, numcar.yugothicuisemiboldb.exp0.tif, numcar.yugothicuisemiboldb.exp0, box.train]
+8월 17, 2019 7:27:07 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:07 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/tesseract, numcar.맑은고딕b.exp0.tif, numcar.맑은고딕b.exp0, box.train]
+8월 17, 2019 7:27:08 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:08 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/tesseract, numcar.함초롬돋움b.exp0.tif, numcar.함초롬돋움b.exp0, box.train]
+8월 17, 2019 7:27:08 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:08 오후 net.sourceforge.tessboxeditor.TessTrainer generateTraineddata
+정보: Compute the Character Set
+8월 17, 2019 7:27:08 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/unicharset_extractor, numcar.yugothicuisemiboldb.exp0.box, numcar.맑은고딕b.exp0.box, numcar.함초롬돋움b.exp0.box]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=C:\Users\gram\Desktop\license_plate_project\ppt4\traindata]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Shape Clustering
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/shapeclustering, -F, carnum.font_properties, -U, unicharset, numcar.yugothicuisemiboldb.exp0.tr, numcar.맑은고딕b.exp0.tr, numcar.함초롬돋움b.exp0.tr]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: MF Training
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/mftraining, -F, carnum.font_properties, -U, unicharset, -O, carnum.unicharset, numcar.yugothicuisemiboldb.exp0.tr, numcar.맑은고딕b.exp0.tr, numcar.함초롬돋움b.exp0.tr]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: CN Training
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/cntraining, numcar.yugothicuisemiboldb.exp0.tr, numcar.맑은고딕b.exp0.tr, numcar.함초롬돋움b.exp0.tr]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runShapeClustering
+정보: Rename files
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Dictionary Data
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/wordlist2dawg, carnum.frequent_words_list, carnum.freq-dawg, carnum.unicharset]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/wordlist2dawg, carnum.words_list, carnum.word-dawg, carnum.unicharset]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Combine Data Files
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Command: [C:\Program Files (x86)\Tesseract-OCR/combine_tessdata, carnum.]
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runCommand
+정보: Exit value = 0
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Moving generated traineddata file to tessdata folder
+8월 17, 2019 7:27:09 오후 net.sourceforge.tessboxeditor.TessTrainer runDictionary
+정보: Training Completed
