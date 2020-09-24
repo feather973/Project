@@ -1,0 +1,26 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+CREATE TABLE `ESPtable` (
+  `ID` int(5) NOT NULL,
+  `ENEMY1X` int(5) NOT NULL,
+  `ENEMY1Y` int(5) NOT NULL,
+  `ENEMY2X` int(5) NOT NULL,
+  `ENEMY2Y` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `ESPtable`
+  ADD PRIMARY KEY (`ID`);
+
+DROP PROCEDURE IF EXISTS loop_test;
+DELIMITER $$
+CREATE PROCEDURE loop_test(IN var INT)
+BEGIN
+  WHILE var<=180 DO
+  INSERT INTO `ESPtable` (`ID`, `ENEMY1X`, `ENEMY1Y`,`ENEMY2X`,`ENEMY2Y`) VALUES
+(var, 1000, 1000, 1000, 1000);
+  SET var = var + 1;
+  END WHILE;
+END $$
+
+Call loop_test(0);
